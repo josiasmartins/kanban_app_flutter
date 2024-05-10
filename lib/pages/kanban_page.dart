@@ -28,22 +28,24 @@ class _KanbanPage extends State<KanbanPage> {
           "Proximo",
           style: TextStyle(color: Colors.white),
         ),
-        // shape:,
         backgroundColor: Color.fromARGB(255, 64, 14, 150),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(25),
+        ),
       ),
       body: Column(
-        // crossAxisAlignment: CrossAxisAlignment.center,
-        // mainAxisAlignment: MainAxisAlignment.center,
-        //verticalDirection: VerticalDirection.down,
         children: [
           Padding(
             padding: EdgeInsets.all(24),
           ),
           Center(
-            child: Text("Newww"),
+            child: Text("Kanban 1"),
+          ),
+          Center(
+            child: Text("Kanban 2"),
           ),
           Text(
-            "New",
+            "Kanban 3",
           ),
         ],
       ),
