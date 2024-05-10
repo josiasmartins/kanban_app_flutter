@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="kanban_app"
+        android:label="Kanban App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
