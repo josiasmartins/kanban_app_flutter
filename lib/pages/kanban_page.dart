@@ -15,7 +15,9 @@ class _KanbanPage extends State<KanbanPage> {
         centerTitle: true,
         title: Text(
           "Kanban app",
-          style: TextStyle(color: Color.fromARGB(255, 108, 55, 223)),
+          style: TextStyle(
+            color: Color.fromARGB(255, 108, 55, 223),
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -30,8 +32,19 @@ class _KanbanPage extends State<KanbanPage> {
         backgroundColor: Color.fromARGB(255, 64, 14, 150),
       ),
       body: Column(
+        // crossAxisAlignment: CrossAxisAlignment.center,
+        // mainAxisAlignment: MainAxisAlignment.center,
+        //verticalDirection: VerticalDirection.down,
         children: [
-          Text("Novo"),
+          Padding(
+            padding: EdgeInsets.all(24),
+          ),
+          Center(
+            child: Text("Newww"),
+          ),
+          Text(
+            "New",
+          ),
         ],
       ),
     );
