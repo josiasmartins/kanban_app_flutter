@@ -12,15 +12,20 @@ class _KanbanPage extends State<KanbanPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(
           "Kanban app",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Color.fromARGB(255, 108, 55, 223)),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           print("PRESSIONADO");
         },
+        child: Text(
+          "Proximo",
+          style: TextStyle(color: Colors.white),
+        ),
         // shape:,
         backgroundColor: Color.fromARGB(255, 64, 14, 150),
       ),
