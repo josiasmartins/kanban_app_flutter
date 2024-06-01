@@ -14,3 +14,9 @@ flutter build appbundle --release
 dart pub add get
 dart pub add fluttter_laucher_icons:main
 ```
+
+#### Gerando o .aab e .apk
+```bash
+flutter build appbundle
+flutter build apk
+```
