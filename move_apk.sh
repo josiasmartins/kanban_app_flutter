@@ -76,7 +76,9 @@ move_apk() {
 
 # Função para gerar uma nova tag no Git
 create_git_tag() {
-    git add .
+    git add apks/*
+    git add move_apk.sh
+    git status
     echo "adicionado na area de stage"
     git commit -m "Release version $new_version"
     echo "commitado com mensagem: Release version $new_version"
