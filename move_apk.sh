@@ -76,7 +76,7 @@ move_apk() {
 
 # Função para gerar uma nova tag no Git
 create_git_tag() {
-    git add apks/*
+    git add apks/.
     git add move_apk.sh
     git add pubspec.yaml
     git add README.md
