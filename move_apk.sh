@@ -62,8 +62,11 @@ move_apk() {
     rm -rf apks/*
     mkdir -p apks
     echo "Variavel $1"
+    # mv build/app/outputs/flutter-apk/app-release.apk apks/notes_app_v$new_version.apk
     mv build/app/outputs/flutter-apk/app-release.apk apks/
     echo "Movido para a pasta apks"
+    mv apks/app-release.apk apks/kanban_app$new_version.apk
+    echo "Renomeado o apk para kanban_app$new_version.apk"
 }
 
 # # Função para alterar a versão do Flutter no pubspec.yaml
