@@ -78,6 +78,8 @@ move_apk() {
 create_git_tag() {
     git add apks/*
     git add move_apk.sh
+    git add pubspec.yaml
+    git add README.md
     git status
     echo "adicionado na area de stage"
     git commit -m "Release version $new_version"
